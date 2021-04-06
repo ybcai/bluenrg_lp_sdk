@@ -1,0 +1,6 @@
+<workspace>
+  <project>
+    <path>$WS_DIR$\Example_HAL.ewp</path>
+  </project>
+  <batchBuild />
+</workspace>

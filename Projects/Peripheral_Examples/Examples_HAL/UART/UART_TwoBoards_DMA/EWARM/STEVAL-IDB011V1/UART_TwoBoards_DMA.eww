@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\UART_TwoBoards_DMA.ewp</path>
+    </project>
+    <batchBuild>
+        <batchDefinition>
+            <name>BUILD_ALL</name>
+            <member>
+                <project>UART_TwoBoards_DMA</project>
+                <configuration>Receiver_board</configuration>
+            </member>
+            <member>
+                <project>UART_TwoBoards_DMA</project>
+                <configuration>Transmitter_board</configuration>
+            </member>
+            <member>
+                <project>UART_TwoBoards_DMA</project>
+                <configuration>UART_TwoBoards_DMA</configuration>
+            </member>
+        </batchDefinition>
+    </batchBuild>
+</workspace>
